@@ -9,5 +9,6 @@ def bubble_sort(a):
         print(a)
     print(f"Voor een rij van lengte {n} werd het if-statement {uitgevoerd} keer uitgevoerd")
 
-a = [int(_) for _ in input().split()]
-bubble_sort(a)
+if __name__ == "__main__":
+    a = [int(_) for _ in input().split()]
+    bubble_sort(a)
