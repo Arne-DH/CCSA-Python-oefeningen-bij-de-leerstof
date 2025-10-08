@@ -11,5 +11,3 @@ def bubble_sort(a):
 
 a = [int(_) for _ in input().split()]
 bubble_sort(a)
-
-print(a)
