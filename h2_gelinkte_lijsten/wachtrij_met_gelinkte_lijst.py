@@ -6,16 +6,15 @@ class QueueList:
             self.data = data
             self.volgende = volgende
 
+
     def __init__(self) -> None:
-        self.kop = None
-        self.staart = None
+        pass
 
     def is_empty(self):
-        return self.kop is None
+        pass
 
     def enqueue(self,data):
         pass
-       
 
     def front(self):
         pass
